@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: SlipEvent
+  m_EditorClassIdentifier: 
+  mEventID: SlipEvent
+  mEventList:
+  - mStartSample: 48559
+    mEndSample: 48559
+  - mStartSample: 72613
+    mEndSample: 72613
+  - mStartSample: 96668
+    mEndSample: 96668
+  - mStartSample: 120722
+    mEndSample: 120722
+  - mStartSample: 144777
+    mEndSample: 144777
+  - mStartSample: 168831
+    mEndSample: 168831
+  - mStartSample: 192886
+    mEndSample: 192886
+  - mStartSample: 216940
+    mEndSample: 216940
+  - mStartSample: 240995
+    mEndSample: 240995
+  - mStartSample: 265049
+    mEndSample: 265049
+  - mStartSample: 289104
+    mEndSample: 289104
+  - mStartSample: 313159
+    mEndSample: 313159
+  - mStartSample: 337213
+    mEndSample: 337213
+  - mStartSample: 361268
+    mEndSample: 361268
+  - mStartSample: 385322
+    mEndSample: 385322
+  - mStartSample: 409377
+    mEndSample: 409377
+  - mStartSample: 433431
+    mEndSample: 433431
+  - mStartSample: 457486
+    mEndSample: 457486
+  - mStartSample: 481540
+    mEndSample: 481540
+  - mStartSample: 505595
+    mEndSample: 505595
+  - mStartSample: 529649
+    mEndSample: 529649
+  - mStartSample: 553704
+    mEndSample: 553704
+  - mStartSample: 577759
+    mEndSample: 577759
+  - mStartSample: 601813
+    mEndSample: 601813
+  - mStartSample: 625868
+    mEndSample: 625868
+  - mStartSample: 649922
+    mEndSample: 649922
+  - mStartSample: 673977
+    mEndSample: 673977
+  - mStartSample: 698031
+    mEndSample: 698031
+  - mStartSample: 722086
+    mEndSample: 722086
+  - mStartSample: 746140
+    mEndSample: 746140
+  - mStartSample: 770195
+    mEndSample: 770195
+  - mStartSample: 794249
+    mEndSample: 794249
+  - mStartSample: 818304
+    mEndSample: 818304
+  - mStartSample: 842359
+    mEndSample: 842359
+  - mStartSample: 866413
+    mEndSample: 866413
+  - mStartSample: 890468
+    mEndSample: 890468
+  - mStartSample: 914522
+    mEndSample: 914522
+  - mStartSample: 938577
+    mEndSample: 938577
+  - mStartSample: 962631
+    mEndSample: 962631
+  - mStartSample: 986686
+    mEndSample: 986686
+  - mStartSample: 1010740
+    mEndSample: 1010740
+  - mStartSample: 1034795
+    mEndSample: 1034795
+  - mStartSample: 1058849
+    mEndSample: 1058849
+  - mStartSample: 1082904
+    mEndSample: 1082904
+  - mStartSample: 1106959
+    mEndSample: 1106959
+  - mStartSample: 1131013
+    mEndSample: 1131013
+  - mStartSample: 1155068
+    mEndSample: 1155068
+  - mStartSample: 1179122
+    mEndSample: 1179122
+  - mStartSample: 1203177
+    mEndSample: 1203177
+  - mStartSample: 1227231
+    mEndSample: 1227231
+  - mStartSample: 1251286
+    mEndSample: 1251286
+  - mStartSample: 1275340
+    mEndSample: 1275340
+  - mStartSample: 1299395
+    mEndSample: 1299395
+  - mStartSample: 1323449
+    mEndSample: 1323449
+  - mStartSample: 1347504
+    mEndSample: 1347504
+  - mStartSample: 1371559
+    mEndSample: 1371559
+  - mStartSample: 1395613
+    mEndSample: 1395613
+  - mStartSample: 1419668
+    mEndSample: 1419668
+  - mStartSample: 1443722
+    mEndSample: 1443722
+  - mStartSample: 1467777
+    mEndSample: 1467777
+  - mStartSample: 1491831
+    mEndSample: 1491831
+  - mStartSample: 1515886
+    mEndSample: 1515886
+  - mStartSample: 1539940
+    mEndSample: 1539940
+  - mStartSample: 1563995
+    mEndSample: 1563995
+  - mStartSample: 1588049
+    mEndSample: 1588049
+  - mStartSample: 1612104
+    mEndSample: 1612104
+  - mStartSample: 1636159
+    mEndSample: 1636159
+  - mStartSample: 1660213
+    mEndSample: 1660213
+  - mStartSample: 1684268
+    mEndSample: 1684268
+  - mStartSample: 1708322
+    mEndSample: 1708322
+  - mStartSample: 1732377
+    mEndSample: 1732377
+  - mStartSample: 1756431
+    mEndSample: 1756431
+  - mStartSample: 1780486
+    mEndSample: 1780486
+  - mStartSample: 1804540
+    mEndSample: 1804540
+  - mStartSample: 1828595
+    mEndSample: 1828595
+  - mStartSample: 1852649
+    mEndSample: 1852649
+  - mStartSample: 1876704
+    mEndSample: 1876704
+  - mStartSample: 1900759
+    mEndSample: 1900759
+  - mStartSample: 1924813
+    mEndSample: 1924813
+  - mStartSample: 1948868
+    mEndSample: 1948868
+  - mStartSample: 1972922
+    mEndSample: 1972922
+  _SerializedPayloadTypes:
+  - SonicBloom.Koreo.TextPayload
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads:
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  - mTextVal: beat
+  _TextPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f00000050000000

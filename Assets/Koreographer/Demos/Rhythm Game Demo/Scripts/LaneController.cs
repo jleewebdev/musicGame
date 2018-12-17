@@ -37,7 +37,8 @@ namespace SonicBloom.Koreo.Demos
 
 		// Lifetime boundaries.  This game goes from the top of the screen to the bottom.
 		float spawnY = 0f;
-		float despawnY = 0f;
+        public float spawnZ = 0f;
+		float despawnZ = -10f;
 
 		// Index of the next event to check for spawn timing in this lane.
 		int pendingEventIdx = 0;
@@ -56,7 +57,7 @@ namespace SonicBloom.Koreo.Demos
 		{
 			get
 			{
-				return new Vector3(transform.position.x, spawnY);
+				return new Vector3(transform.position.x, spawnY, spawnZ);
 			}
 		}
 
@@ -65,16 +66,16 @@ namespace SonicBloom.Koreo.Demos
 		{
 			get
 			{
-				return new Vector3(transform.position.x, transform.position.y);
+				return new Vector3(transform.position.x, transform.position.y, transform.position.z);
 			}
 		}
 
 		// The position at which Note Objects should despawn and return to the pool.
-		public float DespawnY
+		public float DespawnZ
 		{
 			get
 			{
-				return despawnY;
+				return despawnZ;
 			}
 		}
 
@@ -104,7 +105,8 @@ namespace SonicBloom.Koreo.Demos
 			// Get the vertical bounds of the camera.  Offset by a bit to allow for offscreen spawning/removal.
 			float cameraOffsetZ = -Camera.main.transform.position.z;
 			spawnY = Camera.main.ViewportToWorldPoint(new Vector3(0f, 1f, cameraOffsetZ)).y + 1f;
-			despawnY = Camera.main.ViewportToWorldPoint(new Vector3(0f, 0f, cameraOffsetZ)).y - 1f;
+            //despawnX = Camera.main.ViewportToWorldPoint(new Vector3(0f, 0f, cameraOffsetZ)).y - 1f;
+            despawnZ = -12f;
 
 			// Update our visual color.
 			targetVisuals.color = color;
@@ -155,7 +157,7 @@ namespace SonicBloom.Koreo.Demos
 		int GetSpawnSampleOffset()
 		{
 			// Given the current speed, what is the sample offset of our current.
-			float spawnDistToTarget = spawnY - transform.position.y;
+			float spawnDistToTarget = spawnZ - transform.position.z;
 			
 			// At the current speed, what is the time to the location?
 			double spawnSecsToTarget = (double)spawnDistToTarget / (double)gameController.noteSpeed;

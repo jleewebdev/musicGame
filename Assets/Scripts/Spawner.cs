@@ -21,7 +21,6 @@ public class Spawner : MonoBehaviour {
             GameObject objectToSpawn = objectPrefabs[Random.Range(0, objectPrefabs.Length)];
             GameObject spawnedObject = Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
             spawnedObject.GetComponent<Mover>().fallSpeed = objectSpeed;
-            print("Spawn object");
             yield return new WaitForSeconds(spawnTime);
                 
         }

@@ -201,6 +201,7 @@ namespace SonicBloom.Koreo.Demos
 			
 			retObj.gameObject.SetActive(true);
 			retObj.enabled = true;
+            retObj.transform.parent = GameObject.Find("Note Container").transform;
 
 			return retObj;
 		}

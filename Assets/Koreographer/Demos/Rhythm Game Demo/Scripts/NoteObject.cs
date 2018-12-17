@@ -61,7 +61,7 @@ namespace SonicBloom.Koreo.Demos
 
 			UpdatePosition();
 
-			if (transform.position.y <= laneController.DespawnY)
+			if (transform.position.z <= laneController.DespawnZ)
 			{
 				gameController.ReturnNoteObjectToPool(this);
 				Reset();
@@ -135,7 +135,9 @@ namespace SonicBloom.Koreo.Demos
 		// Performs actions when the Note Object is hit.
 		public void OnHit()
 		{
-            print("hit note!");
+            print("you hit a note");
+            GameManager.instance.points++;
+            print(GameManager.instance.points);
 			ReturnToPool();
 		}
 

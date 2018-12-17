@@ -15,12 +15,11 @@ public class Mover : MonoBehaviour {
         float randomX = Random.RandomRange(0, 1);
         rb.AddForce(new Vector3(0, 0, -fallSpeed));
         rotationPosition = Random.rotation;
+        transform.parent = GameObject.Find("Object Container").transform;
     }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
         transform.Rotate(new Vector3(10f, 4f, 3f) * Time.deltaTime * rotationSpeed);
-
-           
 	}
 }
